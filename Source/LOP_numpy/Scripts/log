@@ -1,0 +1,131 @@
+10-14 18:03 INFO     ############################################################
+10-14 18:03 INFO     ############################################################
+10-14 18:03 INFO     ############################################################
+10-14 18:03 INFO     * L * O * P *
+10-14 18:03 INFO     ** Model : Baseline_zeros_pred
+10-14 18:03 INFO     ** training_strategy : trAB_teA
+10-14 18:03 INFO     ** result_folder : /Users/leo/Recherche/lop/LOP/Results/Data_bp_bo_noEmb_tempGran32/Baseline_zeros_pred
+10-14 18:03 INFO     ** memory_gpu : 0.95
+10-14 18:03 INFO     ** embedded_piano : False
+10-14 18:03 INFO     ** binarize_piano : True
+10-14 18:03 INFO     ** binarize_orchestra : True
+10-14 18:03 INFO     ** duration_piano : False
+10-14 18:03 INFO     ** mask_orch : False
+10-14 18:03 INFO     ** normalizer : no_normalization
+10-14 18:03 INFO     ** num_max_contiguous_blocks : 1000
+10-14 18:03 INFO     ** pretrained_model : None
+10-14 18:03 INFO     ** batch_size : 128
+10-14 18:03 INFO     ** max_iter : 3
+10-14 18:03 INFO     ** walltime : 11
+10-14 18:03 INFO     ** long_range : 5
+10-14 18:03 INFO     ** k_folds : 10
+10-14 18:03 INFO     ** min_number_iteration : 3
+10-14 18:03 INFO     ** validation_order : 2
+10-14 18:03 INFO     ** number_strips : 3
+10-14 18:03 INFO     ** overfitting_measure : accuracy
+10-14 18:03 INFO     ** save_measures : ['loss', 'accuracy', 'Xent']
+10-14 18:03 INFO     ** max_hyperparam_configs : 20
+10-14 18:03 INFO     ** debug : {'save_measures': False, 'summarize': False, 'plot_weights': False, 'plot_nade_ordering_preds': False, 'save_accuracy_along_sampling': False, 'salience_embedding': False}
+10-14 18:03 INFO     ** binarize_orch : True
+10-14 18:03 INFO     ** model_name : zeros
+10-14 18:03 INFO     ** n_instru : 12
+10-14 18:03 INFO     ** instru_mapping : {'Piano': {'pitch_min': 21, 'pitch_max': 110, 'index_min': 0, 'index_max': 89}, 'Violoncello': {'pitch_min': 24, 'pitch_max': 83, 'index_instru': 2, 'index_min': 0, 'index_max': 59}, 'Violin': {'pitch_min': 37, 'pitch_max': 98, 'index_instru': 3, 'index_min': 59, 'index_max': 120}, 'Bassoon': {'pitch_min': 24, 'pitch_max': 77, 'index_instru': 5, 'index_min': 334, 'index_max': 387}, 'Viola': {'pitch_min': 43, 'pitch_max': 89, 'index_instru': 6, 'index_min': 177, 'index_max': 223}, 'Flute': {'pitch_min': 41, 'pitch_max': 108, 'index_instru': 8, 'index_min': 223, 'index_max': 290}, 'Trumpet': {'pitch_min': 45, 'pitch_max': 89, 'index_instru': 0, 'index_min': 290, 'index_max': 334}, 'Clarinet': {'pitch_min': 38, 'pitch_max': 95, 'index_instru': 7, 'index_min': 120, 'index_max': 177}, 'Contrabass': {'pitch_min': 11, 'pitch_max': 77, 'index_instru': 9, 'index_min': 387, 'index_max': 453}, 'Oboe': {'pitch_min': 52, 'pitch_max': 91, 'index_instru': 1, 'index_min': 453, 'index_max': 492}, 'Horn': {'pitch_min': 28, 'pitch_max': 90, 'index_instru': 4, 'index_min': 492, 'index_max': 554}, 'Trombone': {'pitch_min': 28, 'pitch_max': 78, 'index_instru': 10, 'index_min': 554, 'index_max': 604}}
+10-14 18:03 INFO     ** quantization : 32
+10-14 18:03 INFO     ** N_piano_embedded : 0
+10-14 18:03 INFO     ** embedding_path : 
+10-14 18:03 INFO     ** store_folder : /fast-1/leo/automatic_arrangement/Data/Data_bp_bo_noEmb_tempGran32
+10-14 18:03 INFO     ** N_piano : 89
+10-14 18:03 INFO     ** N_orchestra : 604
+10-14 18:03 INFO     ** max_number_note_played : 38
+10-14 18:03 INFO     ** chunk_size : 200
+10-14 18:03 INFO     ** temporal_granularity : event_level
+10-14 18:03 INFO     ############################################################
+10-14 18:03 INFO     ############################################################
+10-14 18:03 INFO     ############################################################
+10-14 18:03 INFO     #### /Users/leo/Recherche/lop/LOP/Results/Data_bp_bo_noEmb_tempGran32/Baseline_zeros_pred/TEST
+10-14 18:03 INFO     #### Model parameters
+10-14 18:03 INFO     ** Model : Baseline_zeros_pred
+10-14 18:03 INFO     ** temporal_order : 3
+10-14 18:03 INFO     ** dropout_probability : 0
+10-14 18:03 INFO     ** weight_decay_coeff : 0
+10-14 18:03 INFO     ** tn_weight : 0.1
+10-14 18:03 INFO     ** sparsity_coeff : 0
+10-14 18:03 INFO     ** n_hidden : 20
+10-14 18:03 INFO     ** n_factor : 13
+10-14 18:03 INFO     ** Gibbs_steps : 5
+10-14 18:03 INFO     ##### Building folds
+10-14 18:04 INFO     TTT : Building folds took 42.25581097602844 seconds
+10-14 18:04 INFO     TTT : Computing data statistics took 18.86391806602478 seconds
+10-14 18:04 INFO     # Num train batch :  1383
+10-14 18:04 INFO     # Num val batch :  128
+10-14 18:04 INFO     # Num test batch :  70
+10-14 18:04 INFO     ** Num trainable parameters :  0
+10-14 18:04 INFO     ############################################################
+10-14 18:04 INFO     #### Training
+10-14 18:04 INFO     #### Graph
+10-14 18:04 INFO     TTT : Building the graph took 0.08s
+10-14 18:04 INFO     Load the first matrix time : 4.257658004760742
+10-14 18:04 INFO     TTT : Training data took 11.840671062469482 seconds
+10-14 18:04 INFO     # Best loss obtained at epoch :  0
+10-14 18:04 INFO     # Loss :  0.21288029849529266
+10-14 18:04 INFO     # Accuracy :  -0.0
+10-14 18:04 INFO     ###################
+
+10-14 18:05 INFO     TTT : Computing data statistics took 22.577876806259155 seconds
+10-14 18:05 INFO     # Num train batch :  1454
+10-14 18:05 INFO     # Num val batch :  125
+10-14 18:05 INFO     # Num test batch :  49
+10-14 18:05 INFO     ** Num trainable parameters :  0
+10-14 18:05 INFO     ############################################################
+10-14 18:05 INFO     #### Training
+10-14 18:05 INFO     #### Graph
+10-14 18:05 INFO     TTT : Building the graph took 0.07s
+10-14 18:05 INFO     Load the first matrix time : 3.7481436729431152
+10-14 18:05 INFO     TTT : Training data took 8.78176474571228 seconds
+10-14 18:05 INFO     # Best loss obtained at epoch :  0
+10-14 18:05 INFO     # Loss :  0.1736360788345337
+10-14 18:05 INFO     # Accuracy :  -0.0
+10-14 18:05 INFO     ###################
+
+10-14 18:05 INFO     TTT : Computing data statistics took 21.194507122039795 seconds
+10-14 18:05 INFO     # Num train batch :  1434
+10-14 18:05 INFO     # Num val batch :  111
+10-14 18:05 INFO     # Num test batch :  47
+10-14 18:05 INFO     ** Num trainable parameters :  0
+10-14 18:05 INFO     ############################################################
+10-14 18:05 INFO     #### Training
+10-14 18:05 INFO     #### Graph
+10-14 18:05 INFO     TTT : Building the graph took 0.07s
+10-14 18:05 INFO     Load the first matrix time : 3.7915151119232178
+10-14 18:06 INFO     TTT : Training data took 8.515867948532104 seconds
+10-14 18:06 INFO     # Best loss obtained at epoch :  0
+10-14 18:06 INFO     # Loss :  0.17222119867801666
+10-14 18:06 INFO     # Accuracy :  -0.0
+10-14 18:06 INFO     ###################
+
+10-14 18:06 INFO     TTT : Computing data statistics took 19.584452867507935 seconds
+10-14 18:06 INFO     # Num train batch :  1409
+10-14 18:06 INFO     # Num val batch :  141
+10-14 18:06 INFO     # Num test batch :  79
+10-14 18:06 INFO     ** Num trainable parameters :  0
+10-14 18:06 INFO     ############################################################
+10-14 18:06 INFO     #### Training
+10-14 18:06 INFO     #### Graph
+10-14 18:06 INFO     TTT : Building the graph took 0.05s
+10-14 18:06 INFO     Load the first matrix time : 2.083855152130127
+10-14 18:06 INFO     TTT : Training data took 10.251842975616455 seconds
+10-14 18:06 INFO     # Best loss obtained at epoch :  0
+10-14 18:06 INFO     # Loss :  0.2511935532093048
+10-14 18:06 INFO     # Accuracy :  -0.0
+10-14 18:06 INFO     ###################
+
+10-14 18:06 INFO     TTT : Computing data statistics took 20.796820878982544 seconds
+10-14 18:06 INFO     # Num train batch :  1410
+10-14 18:06 INFO     # Num val batch :  120
+10-14 18:06 INFO     # Num test batch :  73
+10-14 18:06 INFO     ** Num trainable parameters :  0
+10-14 18:06 INFO     ############################################################
+10-14 18:06 INFO     #### Training
+10-14 18:06 INFO     #### Graph
+10-14 18:06 INFO     TTT : Building the graph took 0.05s
+10-14 18:06 INFO     Load the first matrix time : 3.318066120147705
